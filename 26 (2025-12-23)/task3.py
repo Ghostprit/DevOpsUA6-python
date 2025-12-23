@@ -1,0 +1,5 @@
+word = input("Enter a random word: ")
+print("")
+print(word.upper())
+print(word.lower())
+print(word.capitalize())

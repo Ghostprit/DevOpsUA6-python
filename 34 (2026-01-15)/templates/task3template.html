@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <form action="{{ url_for('inputGet') }}" method="get">
+            <input type="text" name="username" placeholder="Username">
+            <input type="email" name="email" placeholder="E-Mail">
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
